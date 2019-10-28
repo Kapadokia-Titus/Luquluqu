@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+<!--    required android specs-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vwertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_w_h">100dp</dimen>
+</resources>

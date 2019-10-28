@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326444668916",
+    "firebase_url": "https://luquluqu-ebee0.firebaseio.com",
+    "project_id": "luquluqu-ebee0",
+    "storage_bucket": "luquluqu-ebee0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326444668916:android:df8d201d9913b9d1e6cba1",
+        "android_client_info": {
+          "package_name": "nyandoro.kapadokia.luquluqu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326444668916-d0iajjsdquiih967834skggq6db7jvbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0jhwLv53MLEUfum8XLsGeFWrQrTlSc0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326444668916-d0iajjsdquiih967834skggq6db7jvbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
