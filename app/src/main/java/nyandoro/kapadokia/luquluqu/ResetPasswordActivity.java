@@ -20,7 +20,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
     private EditText inputEmail;
     private Button resetPassword, backButton;
     private FirebaseAuth auth;
-    private ProgressBar progressBar;
+    private ProgressBar progresBar;
 
 
     @Override
@@ -28,11 +28,11 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
 
-        inputEmail = findViewById(R.id.reg_email);
+        inputEmail = findViewById(R.id.reset_email);
         resetPassword = findViewById(R.id.btn_resetPassword);
         backButton = findViewById(R.id.btn_resetBtnBack);
         auth = FirebaseAuth.getInstance();
-        progressBar = findViewById(R.id.progressbar);
+        progresBar = findViewById(R.id.progressbar);
 
 
         //reset password code
@@ -43,6 +43,11 @@ public class ResetPasswordActivity extends AppCompatActivity {
             }
         });
 
+       setResetPassword();
+
+    }
+
+    private  void  setResetPassword(){
         //btn reset
         resetPassword.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +59,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
                     Toast.makeText(ResetPasswordActivity.this, "Enter your registered email id", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                progressBar.setVisibility(View.VISIBLE);
+                progresBar.setVisibility(View.VISIBLE);
                 auth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
@@ -63,12 +68,14 @@ public class ResetPasswordActivity extends AppCompatActivity {
                         }else {
                             Toast.makeText(ResetPasswordActivity.this, "failed to send reset email", Toast.LENGTH_SHORT).show();
                         }
-                        progressBar.setVisibility(View.GONE);
+                        progresBar.setVisibility(View.GONE);
                     }
                 });
 
             }
         });
 
+
     }
 }
+
