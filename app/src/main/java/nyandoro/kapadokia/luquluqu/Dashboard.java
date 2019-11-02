@@ -11,18 +11,15 @@ import android.widget.Toast;
 
 public class Dashboard extends AppCompatActivity {
 
-    private TextView tvWeeekInitiative, tvEmployeeSchedule, tvCompanyCulture;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        tvWeeekInitiative = findViewById(R.id.week_initiative);
-        tvEmployeeSchedule = findViewById(R.id.employee_schedule);
-        tvCompanyCulture =  findViewById(R.id.company_culture);
 
-        onPreview();
+
     }
 
     @Override
@@ -31,36 +28,5 @@ public class Dashboard extends AppCompatActivity {
         return true;
     }
 
-    private  void onPreview(){
 
-        //when user clicks week's initiative
-     tvWeeekInitiative.setOnClickListener(new View.OnClickListener() {
-         @Override
-         public void onClick(View v) {
-             //Toast.makeText(Dashboard.this, "initiative is clicked", Toast.LENGTH_LONG).show();
-             Intent intent = new Intent(Dashboard.this, WeeksInitiative.class);
-             startActivity(intent);
-         }
-     });
-
-     //when employee schedule is clicked
-        tvEmployeeSchedule.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Toast.makeText(Dashboard.this, "employee is clicked", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(Dashboard.this, EmployeeSchedule.class);
-                startActivity(intent);
-            }
-        });
-
-        //when company culture is clicked
-        tvCompanyCulture.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Toast.makeText(Dashboard.this, "company is clicked", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(Dashboard.this, CompanyCulture.class);
-                   startActivity(intent);
-            }
-        });
-    }
 }
