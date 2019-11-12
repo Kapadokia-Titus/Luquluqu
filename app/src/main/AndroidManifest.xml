@@ -3,21 +3,25 @@
     package="nyandoro.kapadokia.luquluqu">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/lukuicon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/lukuicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CompanyCulture"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".CompanyCulture" />
         <activity android:name=".EmployeeSchedule" />
         <activity android:name=".WeeksInitiative" />
-        <activity android:name=".Dashboard" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".Dashboard" android:theme="@style/AppTheme2"/>
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/signOut"
-        android:title="Sign Out"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/accSetting"
-        android:title="Account stetting"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/chat"
-        android:title="Chat"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/admin"
-        android:title="Admin"
-        app:showAsAction="never"/>
+  <item
+      android:id="@+id/signOut"
+      android:title="Sign Out"
+      app:showAsAction="never" />
+  <item
+      android:id="@+id/accSetting"
+      android:title="Account stetting"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/chat"
+      android:title="Chat"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/admin"
+      android:title="Admin"
+      app:showAsAction="never"/>
 
 </menu>

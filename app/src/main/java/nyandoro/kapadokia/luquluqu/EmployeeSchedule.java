@@ -6,9 +6,9 @@ import android.os.Bundle;
 
 public class EmployeeSchedule extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_employee_schedule);
-    }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_employee_schedule);
+  }
 }

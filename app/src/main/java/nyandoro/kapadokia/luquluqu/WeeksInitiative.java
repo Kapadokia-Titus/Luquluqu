@@ -6,9 +6,9 @@ import android.os.Bundle;
 
 public class WeeksInitiative extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weeks_initiative);
-    }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_weeks_initiative);
+  }
 }
