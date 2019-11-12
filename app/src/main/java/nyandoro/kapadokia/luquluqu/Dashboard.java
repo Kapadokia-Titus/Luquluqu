@@ -57,11 +57,17 @@ public class Dashboard extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        signOutUser();
+
     }
 
-    private void signOutUser() {
-       auth.signOut();
+    private void signOutUser(){
+
+      auth.getCurrentUser();
+      Intent intent = new Intent(this, LoginActivity.class);
+      auth.signOut();
+      intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+      startActivity(intent);
     }
 
     //on start method that implements our firebase state listener
