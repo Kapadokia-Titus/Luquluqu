@@ -7,7 +7,7 @@
       app:showAsAction="never" />
   <item
       android:id="@+id/accSetting"
-      android:title="Account stetting"
+      android:title="Account settings"
       app:showAsAction="never"/>
   <item
       android:id="@+id/chat"

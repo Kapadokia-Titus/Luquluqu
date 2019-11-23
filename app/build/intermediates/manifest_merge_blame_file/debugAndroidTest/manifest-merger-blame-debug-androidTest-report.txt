@@ -3,35 +3,35 @@
 3    package="nyandoro.kapadokia.luquluqu.test" >
 4
 5    <uses-sdk
-5-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:5:5-74
+5-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:5:15-41
+6-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:5:15-41
 7        android:targetSdkVersion="27" />
-7-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:5:42-71
+7-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:11:5-15:77
+9-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:11:5-15:77
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:11:22-76
+10-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:14:22-52
+11-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:13:22-53
+12-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:13:22-53
 13        android:label="Tests for nyandoro.kapadokia.luquluqu"
-13-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:15:22-75
+13-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:15:22-75
 14        android:targetPackage="nyandoro.kapadokia.luquluqu" />
-14-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:12:22-73
+14-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:12:22-73
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\64e8da96246fbb1ee2cec826a3815304\core-1.2.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\64e8da96246fbb1ee2cec826a3815304\core-1.2.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:7:5-9:19
-18-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:7:18-43
+18-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:7:5-9:19
+18-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:8:9-60
-19-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3310972095131138127.xml:8:23-57
+19-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:8:9-60
+19-->C:\Users\user\AndroidStudioProjects\luquluqu\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2020826932942970436.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\64e8da96246fbb1ee2cec826a3815304\core-1.2.0\AndroidManifest.xml:27:9-33:20

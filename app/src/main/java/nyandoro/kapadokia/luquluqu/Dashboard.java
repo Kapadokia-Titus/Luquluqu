@@ -7,9 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -17,7 +14,6 @@ public class Dashboard extends AppCompatActivity {
 
     //firebase listener
     private FirebaseAuth auth;
-    private FirebaseAuth.AuthStateListener authStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +43,11 @@ public class Dashboard extends AppCompatActivity {
                 return true;
             case R.id.signOut:
                 signOutUser();
+                return true;
+
+            case R.id.chat:
+                Intent chatIntent = new Intent(Dashboard.this, Chat.class);
+                startActivity(chatIntent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

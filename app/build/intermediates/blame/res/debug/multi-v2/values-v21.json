@@ -14,12 +14,12 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,263,264,271,275,311,314",
+                        "startLines": "2,3,4,5,269,270,277,281,317,320",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,22137,22309",
-                        "endLines": "2,3,4,5,263,264,271,275,313,318",
+                        "startOffsets": "55,159,223,290,19623,19739,20196,20490,22498,22670",
+                        "endLines": "2,3,4,5,269,270,277,281,319,324",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,22304,22642"
+                        "endOffsets": "154,218,285,349,19734,19860,20317,20613,22665,23003"
                     }
                 },
                 {
@@ -33,12 +33,12 @@
                         "endOffsets": "479,905,1328,1763"
                     },
                     "to": {
-                        "startLines": "279,287,295,303",
+                        "startLines": "285,293,301,309",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "20424,20853,21279,21702",
-                        "endLines": "286,294,302,310",
+                        "startOffsets": "20785,21214,21640,22063",
+                        "endLines": "292,300,308,316",
                         "endColumns": "10,10,10,10",
-                        "endOffsets": "20848,21274,21697,22132"
+                        "endOffsets": "21209,21635,22058,22493"
                     }
                 },
                 {
@@ -71,12 +71,31 @@
                         "endOffsets": "218,381,549,716"
                     },
                     "to": {
-                        "startLines": "265,268,272,276",
+                        "startLines": "271,274,278,282",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "19504,19672,19961,20257",
-                        "endLines": "267,270,274,278",
+                        "startOffsets": "19865,20033,20322,20618",
+                        "endLines": "273,276,280,284",
                         "endColumns": "12,12,12,12",
-                        "endOffsets": "19667,19830,20124,20419"
+                        "endOffsets": "20028,20191,20485,20780"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\92d5c64f0baf03b4f2bc12b2407d85c8\\jetified-spots-dialog-1.1\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    },
+                    "to": {
+                        "startLines": "263",
+                        "startColumns": "4",
+                        "startOffsets": "19262",
+                        "endLines": "268",
+                        "endColumns": "12",
+                        "endOffsets": "19618"
                     }
                 }
             ]

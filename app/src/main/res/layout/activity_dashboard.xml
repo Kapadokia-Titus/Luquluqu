@@ -9,14 +9,7 @@
     android:background="@drawable/dashoard"
     tools:context=".Dashboard">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LUQULUQU DASHBOARD"
-        android:textColor="@android:color/white"
-        android:textSize="25dp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"/>
+
 
     <LinearLayout
     android:layout_width="match_parent"
@@ -186,8 +179,8 @@
 
             <ImageView
                 android:id="@+id/statistics_imview"
-                android:layout_width="70dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"

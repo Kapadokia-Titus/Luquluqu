@@ -368,6 +368,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\fd5af5ed399c2fe2609d80691d79245e\\material-1.0.0\\res\\color\\design_error.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -490,6 +494,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_dmax_spots_spot.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\92d5c64f0baf03b4f2bc12b2407d85c8\\jetified-spots-dialog-1.1\\res\\drawable-v21\\dmax_spots_spot.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_chip_state_list_anim.xml.flat",
@@ -856,6 +864,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\src\\main\\res\\drawable\\upload.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\fd5af5ed399c2fe2609d80691d79245e\\material-1.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
@@ -980,6 +992,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\anim\\abc_fade_out.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectange.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\src\\main\\res\\drawable\\rectange.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\6224d5702fa1cc8a85a700cab1ae477f\\jetified-play-services-base-16.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
@@ -1094,6 +1110,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\6224d5702fa1cc8a85a700cab1ae477f\\jetified-play-services-base-16.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\src\\main\\res\\drawable\\ic_camera.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1994,6 +2014,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\layout_dmax_spots_dialog.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\92d5c64f0baf03b4f2bc12b2407d85c8\\jetified-spots-dialog-1.1\\res\\layout\\dmax_spots_dialog.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
