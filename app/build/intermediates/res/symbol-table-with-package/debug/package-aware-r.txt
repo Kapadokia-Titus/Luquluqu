@@ -1103,6 +1103,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_note_add_black_24dp
+drawable ic_person
 drawable ic_textsms_black_24dp
 drawable icon
 drawable lukuicon
@@ -1137,6 +1138,8 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id aboutCv
+id aboutTv
 id accSetting
 id action0
 id action_bar
@@ -1232,6 +1235,7 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id horizontalLayout
 id icon
 id icon_group
 id icon_only
@@ -1264,6 +1268,8 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id myCardView
+id name
+id nameCv
 id navigation_header_container
 id never
 id none
@@ -1279,6 +1285,8 @@ id parentPanel
 id parent_matrix
 id people_imview
 id percent
+id phoneCv
+id phoneTv
 id pin
 id progress_circular
 id progress_horizontal
@@ -1312,6 +1320,9 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id setAbout
+id setName
+id setPhone
 id shortcut
 id showCustom
 id showHome
@@ -1347,6 +1358,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error

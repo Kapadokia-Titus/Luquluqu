@@ -1584,6 +1584,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\luquluqu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\85843906538799809b860890e03c3306\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },

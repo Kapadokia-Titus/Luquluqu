@@ -24,6 +24,7 @@ public class ProfileActivity extends AppCompatActivity {
     //declarations
 
    private static final int GALLERY_INTENT=2;
+   private ImageView imagevw;
    private static final int PICK_IMAGE=2;
    private ProgressDialog progressDialog;
    private StorageReference storageReference;
@@ -41,6 +42,8 @@ public class ProfileActivity extends AppCompatActivity {
         roundedImage.setRoundedRadius(100);
         storageReference = FirebaseStorage.getInstance().getReference();
         progressDialog = new ProgressDialog(this);
+        imagevw = findViewById(R.id.covarIv);
+
 
         //on clicking the image view
         roundedImage.setOnClickListener(new View.OnClickListener() {
@@ -51,6 +54,7 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivityForResult(Intent.createChooser(intent, "select image"), GALLERY_INTENT);
             }
         });
+        //TODO 3:Create a method to display the image to image view using the link from your firebasedb
 
     }
 
@@ -66,7 +70,14 @@ public class ProfileActivity extends AppCompatActivity {
             Glide.with(this)
                     .load(uri)
                     .into(roundedImage);
+            //send to storage
             StorageReference filepath = storageReference.child("Photos").child(uri.getLastPathSegment());
+            //send to database
+
+            //TODO 1:GeT the link from firebase storage
+
+            //TODO 2:Put it in your firebase database
+
             filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
