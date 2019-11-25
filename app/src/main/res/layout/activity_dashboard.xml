@@ -20,6 +20,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="180dp"
         app:cardCornerRadius="20dp"
+        android:id="@+id/start_initiative"
         android:elevation="10dp"
         android:layout_weight="1"
         android:layout_height="160dp">
@@ -53,6 +54,7 @@
         android:layout_width="180dp"
         app:cardCornerRadius="20dp"
         android:elevation="10dp"
+        android:id="@+id/employee_schedule"
         android:layout_weight="1"
         android:layout_marginStart="20dp"
         android:layout_height="160dp">
@@ -92,6 +94,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="180dp"
             app:cardCornerRadius="20dp"
+            android:id="@+id/company_culture"
             android:elevation="10dp"
             android:layout_weight="1"
             android:layout_height="160dp">
@@ -126,6 +129,7 @@
             android:layout_width="180dp"
             app:cardCornerRadius="20dp"
             android:elevation="10dp"
+            android:id="@+id/join_comm"
             android:layout_weight="1"
             android:layout_marginStart="20dp"
             android:layout_height="160dp">
@@ -161,6 +165,7 @@
         android:layout_width="match_parent"
         app:cardCornerRadius="20dp"
         android:elevation="10dp"
+        android:id="@+id/statistics"
         android:layout_weight="1"
         android:layout_margin="40dp"
         android:layout_height="160dp">

@@ -88,40 +88,40 @@ public class LoginActivity extends AppCompatActivity {
         final String password = inputPassword.getText().toString();
 
         //checking if the fields are empty
-        if(TextUtils.isEmpty(email)){
-          Toast.makeText(LoginActivity.this, "email required", Toast.LENGTH_SHORT).show();
-        }
-        if(TextUtils.isEmpty(password)){
-          Toast.makeText(LoginActivity.this, "password required", Toast.LENGTH_SHORT).show();
-        }
+        if(!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)){
+          //code to be performed if the fields are empty
+          //set progressbar visibility
+          progressBar.setVisibility(View.VISIBLE);
 
-        //code to be performed if the fields are empty
-        //set progressbar visibility
-        progressBar.setVisibility(View.VISIBLE);
-
-        //authenticating the user
-        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-          @Override
-          public void onComplete(@NonNull Task<AuthResult> task) {
-            //catching if sign up was sucessful
-            if(!task.isSuccessful()){
-              if(password.length()<6){
-                inputPassword.setError(getString(R.string.minimum_password));
+          //authenticating the user
+          auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+              //catching if sign up was sucessful
+              if(!task.isSuccessful()){
+                if(password.length()<6){
+                  inputPassword.setError(getString(R.string.minimum_password));
+                }
+                else{
+                  progressBar.setVisibility(View.GONE);
+                  Toast.makeText(LoginActivity.this,"authentication failed", Toast.LENGTH_SHORT).show();
+                }
               }
               else{
-                progressBar.setVisibility(View.GONE);
-                Toast.makeText(LoginActivity.this,"authentication failed", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this, Dashboard.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+                finish();
               }
             }
-            else{
-              Intent intent = new Intent(LoginActivity.this, Dashboard.class);
-              intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-              intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-              startActivity(intent);
-              finish();
-            }
-          }
-        });
+          });
+        }
+        if(TextUtils.isEmpty(password) && TextUtils.isEmpty(email)){
+          Toast.makeText(LoginActivity.this, "missing fields", Toast.LENGTH_SHORT).show();
+        }
+
+
       }
     });
   }

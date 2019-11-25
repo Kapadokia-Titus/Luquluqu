@@ -66,7 +66,7 @@ public class ProfileActivity extends AppCompatActivity {
         //TODO 3:Create a method to display the image to image view using the link from your firebasedb
 
            // still under research
-        
+
 
 
 
@@ -87,11 +87,6 @@ public class ProfileActivity extends AppCompatActivity {
             //send to storage
             final StorageReference filepath = storageReference.child("Photos").child(uri.getLastPathSegment());
             //send to database
-
-
-
-
-
             filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {

@@ -64,6 +64,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                 if(!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password) && !TextUtils.isEmpty(pwdConfirm) ){
 
+
                     //check if the password and confirm password march
                     if(doStringMatch(password, pwdConfirm)){
                         // we'll call a function that registers our user
@@ -106,7 +107,7 @@ public class SignUpActivity extends AppCompatActivity {
                         User luquUser = new User();
                         luquUser.setName("kapadokia Titus");
                         luquUser.setPhone("0743378884");
-                        luquUser.setPhoto_url("");
+                        luquUser.setPhoto_url("") ;
                         luquUser.setUser_id(FirebaseAuth.getInstance().getCurrentUser().getUid());
 
                         //database creation

@@ -1344,6 +1344,7 @@ id com_facebook_tooltip_bubble_view_bottom_pointer
 id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id community_imview
+id company_culture
 id company_imview
 id confirmation_code
 id container
@@ -1374,6 +1375,7 @@ id email
 id email_layout
 id email_provider
 id employee_imview
+id employee_schedule
 id end
 id end_padder
 id enterAlways
@@ -1413,6 +1415,7 @@ id input_layout_email
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id join_comm
 id labeled
 id large
 id largeLabel
@@ -1529,6 +1532,8 @@ id src_in
 id src_over
 id standard
 id start
+id start_initiative
+id statistics
 id statistics_imview
 id status_bar_latest_event_content
 id stretch
